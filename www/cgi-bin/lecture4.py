@@ -41,7 +41,7 @@ print "Content-Type: text/html"
 print # don't forget the extra newline
 
 print '<html>'
-print'	<head>'
+print ' <head>'
 print '		<title>'
 print '			My first webpage'
 print '		</title>'
