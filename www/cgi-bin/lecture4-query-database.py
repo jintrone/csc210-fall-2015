@@ -8,6 +8,11 @@
 # Lecture 4 - CSC210 Fall 2015
 # Philip Guo
 
+# To run:
+#
+# python lecture4-query-database.py
+
+
 import sqlite3
 
 # open an existing database file named 'people.db'

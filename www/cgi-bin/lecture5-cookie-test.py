@@ -8,6 +8,11 @@
 # Lecture 5 - CSC210 Fall 2015
 # Philip Guo
 
+# To run, start AMPSS and visit:
+#
+# http://localhost/cgi-bin/lecture5-cookie-test.py
+
+
 import cgi
 
 # to facilitate debugging

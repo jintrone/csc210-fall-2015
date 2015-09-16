@@ -8,6 +8,10 @@
 # Lecture 3 - CSC210 Fall 2015
 # Philip Guo
 
+# To run, start AMPSS and visit:
+#
+# http://localhost/cgi-bin/lecture3.py?my_name=Philip&my_age=32&my_image=../cat.jpg
+
 # useful for debugging
 import cgitb
 cgitb.enable()

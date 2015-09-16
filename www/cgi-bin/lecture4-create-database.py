@@ -8,6 +8,11 @@
 # Lecture 4 - CSC210 Fall 2015
 # Philip Guo
 
+# To create a database named people.db, run:
+#
+# python lecture4-create-database.py
+
+
 import sqlite3
 
 # create a database file named 'people.db' if it doesn't exist yet.

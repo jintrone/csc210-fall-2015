@@ -8,7 +8,9 @@
 # Lecture 4 - CSC210 Fall 2015
 # Philip Guo
 
-# Execute with URLs like:
+# To run, start AMPSS and visit URLs like the following to insert new
+# entries into the database, then check your database's contents using
+# lecture4-query-database.py
 #
 # http://localhost/cgi-bin/lecture4.py?my_name=Joe&my_age=32&my_image=../cat.jpg
 # http://localhost/cgi-bin/lecture4.py?my_name=Donna&my_age=37&my_image=../dog.jpg

@@ -8,11 +8,15 @@
 # Lecture 5 - CSC210 Fall 2015
 # Philip Guo
 
-# also, before running this script, make sure
-# you've first run lecture4-create-database.py
-# to create the people.db database
+# To run, start AMPSS and visit:
+#
+# http://localhost/cgi-bin/lecture5.py
+#
+# valid usernames to enter: Philip, John, Jane
 
-# valid usernames: Philip, John, Jane
+# Before running this script, make sure you've first run
+# lecture4-create-database.py to create the people.db database
+
 
 # useful for debugging
 import cgitb
