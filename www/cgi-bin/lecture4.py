@@ -4,10 +4,11 @@
 # which is usually:
 #!/usr/bin/env python
 
+
 # Lecture 4 - CSC210 Fall 2015
 # Philip Guo
 
-# place in cgi-bin/ directory to execute with URLs like:
+# Execute with URLs like:
 #
 # http://localhost/cgi-bin/lecture4.py?my_name=Joe&my_age=32&my_image=../cat.jpg
 # http://localhost/cgi-bin/lecture4.py?my_name=Donna&my_age=37&my_image=../dog.jpg

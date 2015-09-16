@@ -4,6 +4,7 @@
 # which is usually:
 #!/usr/bin/env python
 
+
 # Lecture 4 - CSC210 Fall 2015
 # Philip Guo
 

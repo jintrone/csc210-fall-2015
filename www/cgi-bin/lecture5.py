@@ -4,10 +4,9 @@
 # which is usually:
 #!/usr/bin/env python
 
+
 # Lecture 5 - CSC210 Fall 2015
 # Philip Guo
-
-# put in public_html/cgi-bin/ and set the proper execute permissions
 
 # also, before running this script, make sure
 # you've first run lecture4-create-database.py

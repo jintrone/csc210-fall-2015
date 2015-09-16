@@ -1,13 +1,12 @@
 #!"C:\Python27\python.exe"
 
-# Lecture 3 - CSC 210 Fall 2015
-# Philip Guo
-
-# first rename to lecture3.py, then
-# put this file into cgi-bin/ to deploy on your server
-
-# The above line is for Windows; for Mac and Linux, try:
+# the above line is for Windows. For Mac OS, use the path to your Python,
+# which is usually:
 #!/usr/bin/env python
+
+
+# Lecture 3 - CSC210 Fall 2015
+# Philip Guo
 
 # useful for debugging
 import cgitb

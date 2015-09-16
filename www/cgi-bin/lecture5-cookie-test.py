@@ -4,10 +4,9 @@
 # which is usually:
 #!/usr/bin/env python
 
+
 # Lecture 5 - CSC210 Fall 2015
 # Philip Guo
-
-# put in public_html/cgi-bin/ and set the proper execute permissions
 
 import cgi
 
