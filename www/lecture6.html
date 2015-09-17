@@ -29,6 +29,37 @@ Philip Guo
 			}
 		</style>
 
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+<script type="text/javascript">
+
+function doMoreInitializing() {
+  console.log("more!");
+}
+
+function changeToBear() {
+  $("#mainImage").attr("src", "bear.jpg");
+  console.log('rawr!');
+}
+
+$(document).ready(function() {
+  console.log("Hello world!");
+  doMoreInitializing();
+
+  $("#catButton").click(function() {
+    $("#mainImage").attr("src", "cat.jpg");
+    console.log('meow!');
+  });
+
+  $("#dogButton").click(function() {
+    $("#mainImage").attr("src", "dog.jpg");
+    console.log('bark!');
+  });
+
+  $("#bearButton").click(changeToBear);
+});
+</script>
+
 	</head>
 
 	<body>
@@ -39,7 +70,7 @@ Philip Guo
 			My sub-heading
 		</h2>
 
-		<img src="truck.jpg"/>
+		<img id="mainImage" src="truck.jpg"/>
 
 		<p>Hello</p>
 
@@ -50,6 +81,10 @@ Philip Guo
 		<p id="myLine">a new line</p>
 
 		<p>another one</p>
+
+    <button id="catButton">Cat</button>
+    <button id="dogButton">Dog</button>
+    <button id="bearButton">Bear</button>
 
 	</body>
 </html>
