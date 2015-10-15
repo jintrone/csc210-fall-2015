@@ -33,14 +33,16 @@ app.get('/', function(req, res){
 });
 
 // when a user's browser makes a socket.io (i.e., WebSocket) connection,
-// run this function ... (note that this function runs *once* for every
-// new user that connects to this server)
+// run this outer function ... (note that this outer function runs *once* for
+// every new user that connects to this server using 'var socket = io();' in
+// index.html, as soon as they connect)
 io.on('connection', function(socket){
-  // when *any* user sends a 'chat message' to the server, run this function
-  // (note that this function runs only when someone sends a message to
+  // when *any* user sends a 'chat message' to the server, run the inner
+  // function below ...
+  // (note that this inner function runs only when someone sends a message to
   // the server. if nobody is sending messages, this function never runs)
   socket.on('chat message', function(msg){
-    // this function emits (sends) the message msg verbatim to ALL BROWSERS
+    // emit (send) the message msg verbatim to ALL BROWSERS
     // that are currently connected to the server at this moment
     io.emit('chat message', msg);
   });

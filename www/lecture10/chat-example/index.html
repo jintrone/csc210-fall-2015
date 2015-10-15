@@ -6,11 +6,11 @@ Philip Guo
 This example was adapted from http://socket.io/get-started/chat/
 (Comments added by Philip Guo)
 
-This HTML file and enclosing JavaScript code loads in the user's Web browser.
+This HTML file and enclosing JavaScript code runs in the user's Web browser.
 
-In other words, it is client-side code. This must be *loaded* from the server
-(just like all files do), but once it's in the user's Web browser, it runs
-purely in the browser.
+In other words, it is client-side code. This must first be loaded from the
+server (just like all files do), but once it's in the user's Web browser,
+it runs purely in the browser.
 
 -->
 
@@ -39,16 +39,18 @@ purely in the browser.
            followed by the "Send" button -->
       <input id="m" autocomplete="off" /><button>Send</button>
     </form>
-    <!-- include the socket.io client (browser) library as well as the usual
+    <!-- include the socket.io client (in-browser) library as well as the usual
          jQuery library. (note that these are being loaded from other servers,
          but you could've downloaded them beforehand yourself too.) -->
     <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
     <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
 
     <script>
-      // create a new socket.io object in the browser. by default, this
-      // connects to the corresponding socket.io object created on the
-      // server in index.js (in the 'io' variable there).
+      // Create a new socket.io object in the browser. By default, this
+      // creates a new WebSocket and connects to the corresponding socket.io
+      // object created on the server in index.js (in the 'io' variable there).
+      // If you wanted to connect to a different server than index.js on
+      // localhost:3000, then pass its URL as a parameter to io().
       var socket = io();
 
       // when the user submits the form by either pressing Enter in the
