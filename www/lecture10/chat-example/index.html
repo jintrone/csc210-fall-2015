@@ -35,10 +35,9 @@ purely in the browser.
     <!-- a list of chat messages, which starts out empty -->
     <ul id="messages"></ul>
     <form action="">
-      <!-- an input text box where the user types in chat messages -->
-      <input id="m" autocomplete="off" />
-      <-- The "Send" button -->
-      <button>Send</button>
+      <!-- an input text box where the user types in chat messages,
+           followed by the "Send" button -->
+      <input id="m" autocomplete="off" /><button>Send</button>
     </form>
     <!-- include the socket.io client (browser) library as well as the usual
          jQuery library. (note that these are being loaded from other servers,
