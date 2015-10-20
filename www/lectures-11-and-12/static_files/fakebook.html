@@ -73,8 +73,8 @@ $(document).ready(function() {
       dataType : "text", // this URL returns a plain text string, not JSON
 
       data : { name: $("#nameBox").val(),
-               job: $("#newJobBox").val(),
-               pet: $("#newPetBox").val()
+               job: $("#jobBox").val(),
+               pet: $("#petBox").val()
              },
 
       success: function( data ) {
@@ -97,8 +97,8 @@ $(document).ready(function() {
       type: "PUT",
       dataType : "text", // this URL returns a plain text string, not JSON
 
-      data : { job: $("#newJobBox").val(),
-               pet: $("#newPetBox").val()
+      data : { job: $("#jobBox").val(),
+               pet: $("#petBox").val()
              },
 
       success: function( data ) {
@@ -122,8 +122,8 @@ $(document).ready(function() {
 
     <p>
     Name: <input id="nameBox" type="text" size="30"/>
-    Job: <input id="newJobBox" type="text" size="20"/>
-    Pet: <input id="newPetBox" type="text" size="20"/>
+    Job: <input id="jobBox" type="text" size="20"/>
+    Pet: <input id="petBox" type="text" size="20"/>
     </p>
 
     <p>
@@ -141,8 +141,5 @@ $(document).ready(function() {
     <hr/>
 
     <div id="status"></div>
-
-    </p>
-
   </body>
 </html>
