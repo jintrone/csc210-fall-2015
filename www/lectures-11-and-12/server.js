@@ -1,8 +1,8 @@
 // Lectures 11 and 12 - CSC 210 Fall 2015
 // Philip Guo
 
-// This is the backend for the Fakebook web app.
-// (static_files/fakebook.html is the frontend)
+// This is the backend for the Fakebook web app, which demonstrates CRUD
+// with Ajax using a REST API. (static_files/fakebook.html is the frontend)
 
 // Prerequisites - first run:
 //   npm install express

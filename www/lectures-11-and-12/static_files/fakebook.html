@@ -1,10 +1,12 @@
 <html>
 
 <!--
+
 Lectures 11 and 12 - CSC 210 Fall 2015
 Philip Guo
 
-This is the frontend for the Fakebook web app. ../server.js is the backend.
+This is the frontend for the Fakebook web app, which demonstrates CRUD
+with Ajax using a REST API. (../server.js is the backend)
 
 Start ../server.js and then visit this URL to view this webpage:
 
@@ -27,7 +29,7 @@ $(document).ready(function() {
     alert("Sorry, there was a problem!");
   });
 
-  $("#lookupButton").click(function() {
+  $("#readButton").click(function() {
     // From: http://learn.jquery.com/ajax/jquery-ajax-methods/
     // Using the core $.ajax() method
     $.ajax({
@@ -138,7 +140,7 @@ $(document).ready(function() {
 
     <p>
     <button id="createButton">Create new user</button>
-    <button id="lookupButton">Read user's profile</button>
+    <button id="readButton">Read user's profile</button>
     <button id="updateButton">Update user's profile</button>
     <button id="deleteButton">Delete user</button>
     </p>
