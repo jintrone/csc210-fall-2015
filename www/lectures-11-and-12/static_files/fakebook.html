@@ -4,6 +4,12 @@
 Lectures 11 and 12 - CSC 210 Fall 2015
 Philip Guo
 
+This is the frontend for the web app. ../server.js is the backend.
+
+Start ../server.js and then visit this URL to view this webpage:
+
+http://localhost:3000/fakebook.html
+
 -->
 
 <head>
@@ -40,6 +46,10 @@ $(document).ready(function() {
           $("#profileImage").attr("src", data.pet);
         } else {
           $("#status").html("Error: could not find user!");
+          // clear the profile display
+          $("#nameDiv").html("");
+          $("#ageDiv").html("");
+          $("#profileImage").attr("src", "");
         }
       },
     });
@@ -121,7 +131,7 @@ $(document).ready(function() {
   <h1>Welcome to Fakebook!</h1>
 
     <p>
-    Name: <input id="nameBox" type="text" size="30"/>
+    Name: <input id="nameBox" type="text" size="20"/>
     Job: <input id="jobBox" type="text" size="20"/>
     Pet: <input id="petBox" type="text" size="20"/>
     </p>

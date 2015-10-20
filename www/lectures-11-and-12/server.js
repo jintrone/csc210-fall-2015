@@ -20,6 +20,7 @@ app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
 // put all of your static files (e.g., HTML, CSS, JS, JPG) in the static_files/
 // sub-directory, and the server will serve them from there. e.g.,:
 //
+// http://localhost:3000/fakebook.html
 // http://localhost:3000/cat.jpg
 //
 // will send the file static_files/cat.jpg to the user's Web browser
