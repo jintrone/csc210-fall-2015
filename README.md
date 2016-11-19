@@ -10,4 +10,4 @@ To learn the basics of Git and GitHub, watch these videos:
 
 
 --------------------
-\* Note: the bulk of this material is based on [original course materials developed](http://courses.pgbovine.net/csc210/schedule.htm) by [Philip Guo](http://www.pgbovine.net/), who has graciously made them publicly available
+\* Note: the bulk of this material is based on [original course materials](http://courses.pgbovine.net/csc210/schedule.htm) developed by [Philip Guo](http://www.pgbovine.net/), who has graciously made them publicly available
